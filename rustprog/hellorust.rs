@@ -29,4 +29,21 @@ fn main() {
 
     const PI: f32 = 3.14; // A "const" is a special kind of variable where the value cannot be changed.
     println!("The value of pi = {}", PI);
+
+    let signedint: i32 = -200; // This is an integer. "i" is the integer while "32" is the data type (other types are 8, 16, 64, etc)
+    println!("A i32 bit integer is {}", signedint);
+
+    let unsignedint: u32 = 200; // This is an unsigned integer. It can only store positive values, or it crashes.
+    println!("An unsigned 32-bit integer is {}", unsignedint);
+
+    let a: f32 = 3.1; // This is a floating type variable. "f" represents that it is a floating number, while "32" represents the bit (NOTE: Higher bit values like 64 can store my decimals)
+    println!("An example of a decimal is {}", a);
+
+    let flagtrue: bool = true; // This is a true boolean
+    let flagfalse: bool = false; // This is a false boolean
+    println!("Rust existing is {}", flagtrue);
+    println!("Rust not existing is {}", flagfalse);
+
+    let character: char = 'g'; // This is used to store a character type. Note that it is possible to use numbers and special characters like "$", "%", etc.
+    println!("An example of an alphabetical character is {}", character);
 }
